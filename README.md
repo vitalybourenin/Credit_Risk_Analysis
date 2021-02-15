@@ -62,17 +62,22 @@ The purpose of this analysis was to train and evaluate machine learning models u
 
 
 - Undersampling
+
 ![ci3](ci3.PNG)
 
 
 - Combination (Over and Under) Sampling with SMOTEENN
+
 ![ci4](ci4.PNG)
 
 - Balanced Random Forest Classifier
+
 ![ci5](ci5.PNG)
 
 - Easy Ensemble Classifier
+
 ![ci6](ci6.PNG)
+
 
 
 # Summary 
