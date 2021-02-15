@@ -46,7 +46,7 @@ The purpose of this analysis was to train and evaluate machine learning models u
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- 
+- Looking at the imbalanced classification reports for the six models, again we see that the ensemble classifiers predict credit risk more accurately than those solely relying on resampling. the precision metrics are higher for both models using Ensemble classifiers than the other four, and the F1 scores for the models using Ensemble Classifiers are higher than the rest of the models as well. The model with the highest F1 score is the model using the Easy Ensemble Classifier with an F1 score of .97.
 
 
 - Random Oversampling
@@ -75,4 +75,4 @@ The purpose of this analysis was to train and evaluate machine learning models u
 
 
 # Summary 
-
+- After viewing the results of our models, we see that the models using Ensemble Classifiers are much better for predicting credit risk. With higher measures for precision, recall, and F1 scores, we see the value that combining models creates in improving the accuracy and robustness of models. 
