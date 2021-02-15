@@ -5,6 +5,8 @@ The purpose of this analysis was to train and evaluate machine learning models u
 
 # Results 
 
+- As seen below, the models using Ensemble Classifiers to predict credit risk (Balanced Random Forest, Easy Ensemble) proved to have far higher balanced accuracy scores than the models that relied solely on resampling. The model using the Easy Ensemble Classifier had the highest balanced accuracy score of ~93.17%
+
 - Random Oversampling
 
 ![ba1](ba1.PNG)
@@ -39,6 +41,10 @@ The purpose of this analysis was to train and evaluate machine learning models u
 
 ![ba6](ba6.PNG)
 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- 
 
 
 - Random Oversampling
