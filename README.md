@@ -19,7 +19,9 @@ The purpose of this analysis was to train and evaluate machine learning models u
 
 
 
+
 - Undersampling
+
 
 ![ba3](ba3.PNG)
 
