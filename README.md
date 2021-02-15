@@ -5,30 +5,30 @@ The purpose of this analysis was to train and evaluate machine learning models u
 
 # Results 
 
-![ba1]()
+![ba1](ba1.PNG)
 
-![ba2]()
+![ba2](ba2.PNG)
 
-![ba3]()
+![ba3](ba3.PNG)
 
-![ba4]()
+![ba4](ba4.PNG)
 
-![ba5]()
+![ba5](ba5.PNG)
 
-![ba6]()
+![ba6](ba6.PNG)
 
 
-![ci1]()
+![ci1](ci1.PNG)
 
-![ci2]()
+![ci2](ci2.PNG)
 
-![ci3]()
+![ci3](ci3.PNG)
 
-![ci4]()
+![ci4](ci4.PNG)
 
-![ci5]()
+![ci5](ci5.PNG)
 
-![ci6]()
+![ci6](ci6.PNG)
 
 
 # Summary 
