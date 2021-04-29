@@ -15,7 +15,7 @@ The purpose of this analysis was to train and evaluate machine learning models u
 
 - SMOTE Oversampling
 
-![ba2](ba2.PNG)
+![ba2](images/ba2.PNG)
 
 
 
@@ -24,25 +24,25 @@ The purpose of this analysis was to train and evaluate machine learning models u
 
 
 
-![ba3](ba3.PNG)
+![ba3](images/ba3.PNG)
 
 
 
 - Combination (Over and Under) Sampling with SMOTEENN
 
-![ba4](ba4.PNG)
+![ba4](images/ba4.PNG)
 
 
 
 - Balanced Random Forest Classifier
 
-![ba5](ba5.PNG)
+![ba5](images/ba5.PNG)
 
 
 
 - Easy Ensemble Classifier
 
-![ba6](ba6.PNG)
+![ba6](images/ba6.PNG)
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -52,31 +52,31 @@ The purpose of this analysis was to train and evaluate machine learning models u
 
 - Random Oversampling
 
-![ci1](ci1.PNG)
+![ci1](images/ci1.PNG)
 
 
 
 - SMOTE Oversampling
 
-![ci2](ci2.PNG)
+![ci2](images/ci2.PNG)
 
 
 - Undersampling
 
-![ci3](ci3.PNG)
+![ci3](images/ci3.PNG)
 
 
 - Combination (Over and Under) Sampling with SMOTEENN
 
-![ci4](ci4.PNG)
+![ci4](images/ci4.PNG)
 
 - Balanced Random Forest Classifier
 
-![ci5](ci5.PNG)
+![ci5](images/ci5.PNG)
 
 - Easy Ensemble Classifier
 
-![ci6](ci6.PNG)
+![ci6](images/ci6.PNG)
 
 
 
