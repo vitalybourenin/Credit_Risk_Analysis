@@ -9,7 +9,7 @@ The purpose of this analysis was to train and evaluate machine learning models u
 
 - Random Oversampling
 
-![ba1](ba1.PNG)
+![ba1](images/ba1.PNG)
 
 
 
