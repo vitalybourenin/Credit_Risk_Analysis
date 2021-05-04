@@ -84,5 +84,5 @@ The purpose of this analysis was to train and evaluate machine learning models u
 
 
 # Summary 
-- After viewing the results of our models, we see that the models using Ensemble Classifiers are much better for predicting credit risk. With higher measures for precision, recall, and F1 scores, we see the value that combining models creates in improving the accuracy and robustness of models. 
+- After viewing the results of our models, we see that the models using Ensemble Classifiers are much better for predicting credit risk. With higher measures for precision, recall, and F1 scores (metric combining precision and recall metrics), we see the value that combining models creates in improving the accuracy and robustness of models. 
 - If I were to make a reccomendation for a model based on these results, I would reccomend the Easy Ensemble Classifier. With the highest measures for balaced accuracy, as well as the highest F1 score, it would make sense to use this model to predict credit risk. 
