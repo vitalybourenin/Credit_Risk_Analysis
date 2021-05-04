@@ -1,7 +1,15 @@
 # Credit_Risk_Analysis
 
 # Overview
-The purpose of this analysis was to train and evaluate machine learning models using different resampling methods to predict credit risk. Our models took into consideration a number of variables, including but not limited to the dollar amount of the loan, interest rates, and annual income, to predict if the loan should be considered high-risk or low-risk. We can analyze the results of these models in order to determine which is the best model for predicting credit risk. 
+
+The purpose of this analysis was to train and evaluate machine learning models using different resampling methods, as well as bias-reducing ensemble classifiers to predict credit risk. A problem inherent with classifying credit risk is that our classes (high vs low credit risk) will be very imbalanced. We attempt to account for this using a number of different methods, aiming to find the best model for our particular needs. Our models took into consideration a number of variables, including but not limited to the dollar amount of the loan, interest rates, and annual income, to predict if the loan should be considered high-risk or low-risk. We can analyze the results of these models in order to determine which is the best model for predicting credit risk. 
+Overview of Models Used:
+- Random OverSampler: Instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced. 
+ - SMOTE Oversampling: SMOTE (Synthetic Minority Oversampling Technique) interpolates new values by looking at a datapoint from the minority class and a number of its closest "neighbors", based on the values of these neighbors, new values are generated in order to have a balance of classes in the training dataset. 
+ - Undersampling with the ClusterCetroids algorithm: Akin to SMOTE, but with undersampling. Identifies clusters of the majority class and generates synthetic data points, the majority class is then undersampled down to the size of the minority class. 
+ - SMOTEENN: A combination of SMOTE and ENN (Edited Nearest Neighbor) techniques. The minority class is first oversampled with SMOTE, then cleaned and undersampled using ENN. If the nearest two "neighbors" of a data point belong to different classes, that data point is dropped. 
+ - Random Forest: Samples data randomly and makes many small decision trees based on that sampled data. These decision trees are then combined and a prediction made. 
+ - Easy Ensemble: Involves creating balanced samples of the training dataset by selecting all examples from minority class, and a subset from the majority class. Boosted decision trees. Using the AdaBoost algorithm, a decision tree is fit on the dataset, errors made by the tree are found, and examples in the dataset are weighed by those errors so more attention is paid to the misclassfied examples than the correctly predicted examples. This process is then repeated for a number of decision trees. 
 
 # Technologies Used
 - Technologies utilized in this analysis include: Python, Pandas, NumPy, Scikit Learn, imblearn, Jupyter Notebook
