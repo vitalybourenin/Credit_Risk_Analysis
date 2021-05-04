@@ -7,7 +7,7 @@ The purpose of this analysis was to train and evaluate machine learning models u
 - Technologies utilized in this analysis include: Python, Pandas, NumPy, Scikit Learn, imblearn, Jupyter Notebook
 
 # Results 
-
+- The balanced accuracy score is simply the average of recall scores for each class. 
 - As seen below, the models using Ensemble Classifiers to predict credit risk (Balanced Random Forest, Easy Ensemble) proved to have far higher balanced accuracy scores than the models that relied solely on resampling. The model using the Easy Ensemble Classifier had the highest balanced accuracy score of ~93.17%
 
 - Random Oversampling
