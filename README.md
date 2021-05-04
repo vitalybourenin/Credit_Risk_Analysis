@@ -12,7 +12,7 @@ Overview of Models Used:
  - Easy Ensemble: Involves creating balanced samples of the training dataset by selecting all examples from minority class, and a subset from the majority class. Boosted decision trees. Using the AdaBoost algorithm, a decision tree is fit on the dataset, errors made by the tree are found, and examples in the dataset are weighed by those errors so more attention is paid to the misclassfied examples than the correctly predicted examples. This process is then repeated for a number of decision trees. 
 
 # Technologies Used
-- Technologies utilized in this analysis include: Python, Pandas, NumPy, Scikit Learn, imblearn, Jupyter Notebook
+- Technologies utilized in this analysis include: Python, Pandas, NumPy, scikit-learn, imbalanced-learn, Jupyter Notebook
 
 # Results 
 - The balanced accuracy score is simply the average of recall scores for each class. 
