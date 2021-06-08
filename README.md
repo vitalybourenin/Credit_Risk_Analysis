@@ -2,6 +2,7 @@
 
 # Overview
 
+
 The purpose of this analysis was to train and evaluate machine learning models using different resampling methods, as well as bias-reducing ensemble classifiers to predict credit risk. A problem inherent with classifying credit risk is that our classes (high vs low credit risk) will be very imbalanced. We attempt to account for this using a number of different methods, aiming to find the best model for our particular needs. Our models took into consideration a number of variables, including but not limited to the dollar amount of the loan, interest rates, and annual income, to predict if the loan should be considered high-risk or low-risk. We can analyze the results of these models in order to determine which is the best model for predicting credit risk. 
 Overview of Models Used:
 - Random OverSampler: Instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced. 
